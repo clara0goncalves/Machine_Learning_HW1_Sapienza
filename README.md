@@ -20,15 +20,6 @@ This repository contains the implementation for Homework 1: **Robot Kinematics**
    - Train models to predict fingertip positions based on joint angles.
    - Compare learned Jacobians with analytical Jacobians (focus on the 2-joint robot).
 
-3. (Optional) **Inverse Kinematics**:
-   - Solve IK problems using learned Jacobians.
-
-4. (Optional) **Robot Control**:
-   - Implement a PID controller to reach specific joint configurations.
-
-5. (Optional) **Reinforcement Learning**:
-   - Learn policies to reach target positions using DRL.
-
 ---
 
 ## Steps to Complete the Assignment
@@ -37,9 +28,9 @@ This repository contains the implementation for Homework 1: **Robot Kinematics**
 - Use the Mujoco simulator to generate datasets for robots with different configurations:
   - 2D (2 joints and 3 joints)
   - 3D (5 joints)
-- Save the generated data in CSV format, including:
+  - Save the generated data in CSV format, including:
   - Joint angles, fingertip positions, and orientations.
-- Perform preprocessing (e.g., normalizing angles, representing them with `sin` and `cos`).
+  - Perform preprocessing (e.g., normalizing angles, representing them with `sin` and `cos`).
 
 ### 2. Train Forward Kinematics Models
 - Define feedforward models to learn forward kinematics for each robot.
@@ -50,21 +41,13 @@ This repository contains the implementation for Homework 1: **Robot Kinematics**
 - Compute the Jacobian matrix for the learned forward kinematics using automatic differentiation.
 - Compare the computed Jacobian with the analytical Jacobian for the 2-joint robot.
 
-### 4. (Optional) Solve Inverse Kinematics
-- Use the learned forward kinematics and Jacobians to compute joint angles for given target positions.
-- Implement algorithms such as Newton-Raphson or Levenberg-Marquardt for the 2-joint robot.
-
-### 5. (Optional) Robot Control
-- Implement a PID controller to reach specific joint configurations or target positions.
-- Validate the control algorithm in the Mujoco simulation.
-
 ### 6. Documentation and Submission
 - Write a detailed report covering:
   - Data generation and preprocessing.
   - Model architecture and hyperparameter configurations.
   - Training process and evaluation results.
   - Comparisons of Jacobians and any additional findings.
-- Submit a ZIP file containing the code and a separate PDF report.
+  - Submit a ZIP file containing the code and a separate PDF report.
 
 ---
 
@@ -93,10 +76,6 @@ This repository contains the implementation for Homework 1: **Robot Kinematics**
      - Dataset generation scripts.
      - Model training and evaluation scripts.
      - Jacobian computation and comparison.
-     - (Optional) Inverse kinematics and robot control code.
-
-3. **(Optional)** Videos:
-   - Simulations demonstrating robot control tasks.
 
 ---
 
