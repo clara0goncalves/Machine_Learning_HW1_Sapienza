@@ -103,5 +103,3 @@ This repository contains the implementation for Homework 1: **Robot Kinematics**
 ## Notes
 - Adhere strictly to the deadline: **8th December 2024, 23:59 CET**.
 - Ensure all deliverables are submitted via Classroom.  
-- Acknowledge any use of GenAI tools.  
-- Collaboration is prohibited; the submission must be individual and original.
