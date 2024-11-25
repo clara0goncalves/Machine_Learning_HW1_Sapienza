@@ -1,7 +1,7 @@
 # Homework 1: Robot Kinematics
 
 ## Overview
-This repository contains the implementation for Homework 1: **Robot Kinematics**, part of the Machine Learning course (2024/25). The assignment involves generating datasets using robotic simulators, training models to predict forward kinematics, and optionally solving inverse kinematics and control tasks.
+This repository contains the implementation for Homework 1: **Robot Kinematics**, part of the Machine Learning course (2024/25). The assignment involves generating datasets using robotic simulators, training models to predict forward kinematics.
 
 ### Course Details
 - **Course**: Machine Learning 2024/25  
@@ -56,7 +56,7 @@ This repository contains the implementation for Homework 1: **Robot Kinematics**
 - **Framework**: PyTorch  
 - **Simulation Tool**: Mujoco  
 - **Data Handling**: Pandas  
-- **Visualization**: Matplotlib or similar tools  
+- **Visualization**: Matplotlib 
 
 ---
 
