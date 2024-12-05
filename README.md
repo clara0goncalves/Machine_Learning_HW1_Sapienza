@@ -41,7 +41,7 @@ This repository contains the implementation for Homework 1: **Robot Kinematics**
 - Compute the Jacobian matrix for the learned forward kinematics using automatic differentiation.
 - Compare the computed Jacobian with the analytical Jacobian for the 2-joint robot.
 
-### 6. Documentation and Submission
+### 4. Documentation and Submission
 - Write a detailed report covering:
   - Data generation and preprocessing.
   - Model architecture and hyperparameter configurations.
